@@ -1,6 +1,19 @@
 html, body {
   height: 100%;
+  font-family: 'Cormorant Garamond', serif;
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.card-title {
+  font-family: 'Proza Libre', sans-serif;
+}
+
+
 
 header {
   min-height: 100%;
@@ -18,7 +31,7 @@ header img {
     width: 500px;
   }
   section {
-    min-height: 100%;
+
   }
 }
 
@@ -39,10 +52,6 @@ footer {
 
 button {
 	margin-top: 20px;
-}
-
-.parallax-container {
-  height: 300px;
 }
 
 .chip, .btn {
@@ -67,21 +76,6 @@ button {
     color: #7986cb;
 }
 
-.modal.bottom-sheet {
-  max-height: 100%;
-  margin: 0px auto;
-  border-radius: 0;
-}
-
-@media(min-width: 768px) {
-  .modal.bottom-sheet {
-    width: 66%;
-
-  }
-}
-
-
-flag {
-  height: 48px;
-  width: 48px;
+.parallax-container {
+  height: 200px;
 }

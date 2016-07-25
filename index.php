@@ -8,6 +8,8 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Eczar' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Proza+Libre:600' rel='stylesheet' type='text/css'>
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="theme-color" content="#5c6bc0">
@@ -26,9 +28,15 @@
     include("inc/navbar.php");
     include("inc/header.php");
     include("inc/presentation.php");
+    ?>
+    <div class="parallax-container">
+      <div class="parallax"><img src="http://static.ladepeche.fr/content/media/image/zoom/2014/07/08/201407081252-full.jpg"></div>
+    </div>
+    
+    <?php
     include("inc/concerts.php");
     include("inc/footer.php");
-     ?>
+    ?>
 
 
     
@@ -40,11 +48,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.6/js/materialize.min.js"></script>
     <script type="text/javascript">
       $(document).ready(function() {
-        $(".button-collapse").sideNav();
-        $('ul.tabs').tabs();
          $('.parallax').parallax();
-         $('.modal-trigger').leanModal();
-
       });
     </script>
   </body>

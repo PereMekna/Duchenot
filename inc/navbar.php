@@ -1,5 +1,5 @@
 <div class="navbar-fixed">
-  <nav class="brown darken-2 z-depth-2">
+  <nav class="brown darken-1 z-depth-2">
     <div class="nav-wrapper">
       <a href="#!" class="brand-logo center hide-on-med-and-down">La Taverne de Duchenot</a>
       <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
