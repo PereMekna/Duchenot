@@ -1,0 +1,13 @@
+body {
+	margin-top: 50px;
+}
+
+.thumbnail p {
+	text-align: center;
+	padding: 30px;
+}
+
+.thumbnail span {
+	font-size: 30px;
+	padding: 10px;
+}

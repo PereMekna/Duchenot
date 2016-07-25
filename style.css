@@ -1,0 +1,87 @@
+html, body {
+  height: 100%;
+}
+
+header {
+  min-height: 100%;
+  background-color: #240805;
+}
+
+header img {
+  width: 100%;
+  margin-top: 75px;
+}
+
+@media (min-width: 768px) {
+  header img {
+    margin-top: 150px;
+    width: 500px;
+  }
+  section {
+    min-height: 100%;
+  }
+}
+
+.tabs .indicator {
+	background-color: #3f51b5;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color: #e0e1f1;
+  }
+
+footer {
+    flex: 1 0 auto;
+}
+
+button {
+	margin-top: 20px;
+}
+
+.parallax-container {
+  height: 300px;
+}
+
+.chip, .btn {
+  margin-bottom: 10px;
+}
+
+.collection .collection-item.avatar {
+  min-height: 0px;
+}
+
+.tabs-row {
+  padding: 0px 10px;
+  margin-bottom: 0px;
+  margin-top: 0.5em;
+}
+
+.tabs .tab a {
+  color: #3f51b5;
+}
+
+.tabs .tab a:hover {
+    color: #7986cb;
+}
+
+.modal.bottom-sheet {
+  max-height: 100%;
+  margin: 0px auto;
+  border-radius: 0;
+}
+
+@media(min-width: 768px) {
+  .modal.bottom-sheet {
+    width: 66%;
+
+  }
+}
+
+
+flag {
+  height: 48px;
+  width: 48px;
+}
