@@ -14,6 +14,12 @@
     <!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <link href="./style-admin.css" rel="stylesheet">
+    <script src="http://cdn.tinymce.com/4/tinymce.min.js"></script>
+	<script type="text/javascript">
+	    tinymce.init({ 
+	                    selector:'textarea#mce',
+	                    height: '400' });
+    </script>
 </head>
 <body>
 	<?php include('navbar.php'); ?>
@@ -48,6 +54,7 @@
 	<script type="text/javascript">
 		$(document).on('click', '#img_show', function () {
 			$('#img_area').html('<img style="height: 150px;"src="'+$('#img_url').val()+'" />');
+			$("#editor").html(tinymce.activeEditor.getContent());
 		});
 	</script>
 </body>

@@ -1,4 +1,4 @@
-html, body {
+body {
   height: 100%;
   font-family: 'Cormorant Garamond', serif;
 }
@@ -13,11 +13,17 @@ h6,
   font-family: 'Proza Libre', sans-serif;
 }
 
-
+footer {
+  font-family: 'Arial', sans-serif;
+}
 
 header {
   min-height: 100%;
   background-color: #240805;
+}
+
+section {
+  min-height: 100%;
 }
 
 header img {
@@ -25,9 +31,14 @@ header img {
   margin-top: 75px;
 }
 
+.full-width {
+  width: 100%;
+  display: block;
+}
+
 @media (min-width: 768px) {
   header img {
-    margin-top: 150px;
+    margin-top: 100px;
     width: 500px;
   }
   section {

@@ -12,7 +12,8 @@
     <link href='https://fonts.googleapis.com/css?family=Proza+Libre:600' rel='stylesheet' type='text/css'>
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta name="theme-color" content="#5c6bc0">
+    <meta name="theme-color" content="#240805">
+    <title>La Taverne de Duchenot</title>
     <meta charset="UTF-8">
   </head>
   <body>
@@ -21,19 +22,13 @@
     $req = $db->prepare('SELECT * FROM content ORDER BY ID_CONTENT ASC');
     $req->execute(array());
     $resultat = $req->fetchAll();
-    $req_prog = $db->prepare('SELECT * FROM concerts ORDER BY ID_PROG ASC');
+    $req_prog = $db->prepare('SELECT * FROM concerts ORDER BY DATE_CONCERT ASC');
     $req_prog->execute(array());
     $prog = $req_prog->fetchAll();
      
     include("inc/navbar.php");
     include("inc/header.php");
     include("inc/presentation.php");
-    ?>
-    <div class="parallax-container">
-      <div class="parallax"><img src="http://static.ladepeche.fr/content/media/image/zoom/2014/07/08/201407081252-full.jpg"></div>
-    </div>
-    
-    <?php
     include("inc/concerts.php");
     include("inc/footer.php");
     ?>

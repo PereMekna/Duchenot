@@ -36,9 +36,9 @@ if (isset($_POST['update_info'])) {
               </div>
             </div>
             <div class="form-group">
-              <label for="desc" class="control-label col-md-2">Infos :</label>
+              <label for="desc" class="control-label col-md-2">Menus :</label>
               <div class="col-md-10">
-                <textarea id="desc" class="form-control" rows="5" required title="Infos " name="infos" autofocus><?php echo $resultat[2]["CONTENT"]; ?></textarea>
+                <textarea id="mce" class="form-control" rows="5" required title="Infos " name="infos" autofocus><?php echo $resultat[2]["CONTENT"]; ?></textarea>
               </div>
             </div>
             <div class="form-group"> 
